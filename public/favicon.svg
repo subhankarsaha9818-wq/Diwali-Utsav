@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="flameGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF2A3"/>
+      <stop offset="50%" stop-color="#FF9E1B"/>
+      <stop offset="100%" stop-color="#E84A1A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="diyaBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5C76A"/>
+      <stop offset="50%" stop-color="#C28723"/>
+      <stop offset="100%" stop-color="#703E05"/>
+    </linearGradient>
+  </defs>
+  <!-- Diya Base -->
+  <path d="M10 38 C 12 52, 52 52, 54 38 C 44 42, 20 42, 10 38 Z" fill="url(#diyaBody)" stroke="#F5C76A" stroke-width="1.5"/>
+  <ellipse cx="32" cy="38" rx="22" ry="6" fill="#8E4810" stroke="#F5C76A" stroke-width="1"/>
+  <!-- Diya Rim pattern -->
+  <path d="M16 38 Q 20 40 24 38 Q 28 40 32 38 Q 36 40 40 38 Q 44 40 48 38" fill="none" stroke="#FFF4DC" stroke-width="0.8" opacity="0.8"/>
+  <!-- Flame Glow Background -->
+  <circle cx="32" cy="22" r="16" fill="url(#flameGlow)" opacity="0.85"/>
+  <!-- Flame -->
+  <path d="M32 8 C 36 16, 40 22, 36 28 C 34 31, 30 31, 28 28 C 24 22, 28 16, 32 8 Z" fill="#FFE066"/>
+  <path d="M32 12 C 34 17, 37 22, 34 26 C 33 27, 31 27, 30 26 C 27 22, 30 17, 32 12 Z" fill="#FF8C00"/>
+  <path d="M32 18 C 33 21, 34 23, 33 25 C 32.5 25.5, 31.5 25.5, 31 25 C 30 23, 31 21, 32 18 Z" fill="#FFFFFF"/>
+</svg>
+
